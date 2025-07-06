@@ -1,6 +1,6 @@
 import kagglehub
-from src.preprocess import load_data_kagglehub, preprocess_data
-from src.models import train_rf, train_gb, train_xgb, evaluate_model
+from preprocess import load_data_kagglehub, preprocess_data
+from models import train_rf, train_gb, train_xgb, evaluate_model
 import matplotlib.pyplot as plt
 
 # Download using kagglehub
